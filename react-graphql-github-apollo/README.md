@@ -1,5 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## To run
+Create personal access token on [GitHub](https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line) 
+
+put token in .env.local ( you might need to install dotenv package):
+
+REACT_APP_GITHUB_PERSONAL_ACCESS_TOKEN=<token>
+
+
 ## Available Scripts
 
 In the project directory, you can run:

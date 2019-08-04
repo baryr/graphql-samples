@@ -55,14 +55,6 @@ const getUpdatedStarData = (client, id, viewerHasStarred) => {
   return produce(repository, draft => {
     draft.stargazers.totalCount = totalCount;
   });
-
-  // return {
-  //   ...repository,
-  //   stargazers: {
-  //     ...repository.stargazers,
-  //     totalCount
-  //   }
-  // }
 };
 
 const updateWatch = (

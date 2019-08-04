@@ -20,20 +20,6 @@ const getUpdateQuery = entry => (previousResult, {fetchMoreResult}) => {
       ...fetchMoreResult[entry].repositories.edges
     ]
   });
-
-  // return {
-  //   ...previousResult,
-  //   [entry]: {
-  //     ...previousResult.[entry],
-  //     repositories: {
-  //       ...fetchMoreResult.[entry].repositories,
-  //       edges: [
-  //         ...previousResult.[entry].repositories.edges,
-  //         ...fetchMoreResult.[entry].repositories.edges
-  //       ]
-  //     }
-  //   }
-  // }
 }
 
 const RepositoryList = ({ repositories, loading, fetchMore, entry }) => ( 

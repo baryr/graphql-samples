@@ -7,13 +7,12 @@ import './App.css';
 
 const TITLE = 'React GraphQL GitHub client';
 
-// TODO: hardcoded
-const bearer = 'e3edef3ced79b1f87270a4fe70ea76d220e07c13'
-
 const axiosGitHubGraphQL = axios.create({
   baseURL: 'https://api.github.com/graphql',
   headers: {
-    Authorization: `bearer ${bearer}`
+    authorization: `Bearer ${
+      process.env.REACT_APP_GITHUB_PERSONAL_ACCESS_TOKEN
+    }`
   }
 });
 
@@ -107,8 +106,14 @@ const resolveIssuesQuery = (queryResult, cursor) => state => {
   const { data, errors } = queryResult.data;
 
   if (!cursor) {
+    if (data) {
+      return {
+        organization: data.organization,
+        errors,
+      };
+    }
+
     return {
-      organization: data.organization,
       errors,
     };
   }

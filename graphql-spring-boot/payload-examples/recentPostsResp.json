@@ -1,0 +1,106 @@
+{
+  "data": {
+    "recentPosts": [
+      {
+        "id": "Post00",
+        "title": "Post 0:0",
+        "category": null,
+        "author": {
+          "id": "Author0",
+          "name": "Author 0",
+          "thumbnail": "http://example.com/authors/0"
+        }
+      },
+      {
+        "id": "Post10",
+        "title": "Post 1:0",
+        "category": null,
+        "author": {
+          "id": "Author1",
+          "name": "Author 1",
+          "thumbnail": "http://example.com/authors/1"
+        }
+      },
+      {
+        "id": "Post20",
+        "title": "Post 2:0",
+        "category": null,
+        "author": {
+          "id": "Author2",
+          "name": "Author 2",
+          "thumbnail": "http://example.com/authors/2"
+        }
+      },
+      {
+        "id": "Post30",
+        "title": "Post 3:0",
+        "category": null,
+        "author": {
+          "id": "Author3",
+          "name": "Author 3",
+          "thumbnail": "http://example.com/authors/3"
+        }
+      },
+      {
+        "id": "Post40",
+        "title": "Post 4:0",
+        "category": null,
+        "author": {
+          "id": "Author4",
+          "name": "Author 4",
+          "thumbnail": "http://example.com/authors/4"
+        }
+      },
+      {
+        "id": "Post50",
+        "title": "Post 5:0",
+        "category": null,
+        "author": {
+          "id": "Author5",
+          "name": "Author 5",
+          "thumbnail": "http://example.com/authors/5"
+        }
+      },
+      {
+        "id": "Post60",
+        "title": "Post 6:0",
+        "category": null,
+        "author": {
+          "id": "Author6",
+          "name": "Author 6",
+          "thumbnail": "http://example.com/authors/6"
+        }
+      },
+      {
+        "id": "Post70",
+        "title": "Post 7:0",
+        "category": null,
+        "author": {
+          "id": "Author7",
+          "name": "Author 7",
+          "thumbnail": "http://example.com/authors/7"
+        }
+      },
+      {
+        "id": "Post80",
+        "title": "Post 8:0",
+        "category": null,
+        "author": {
+          "id": "Author8",
+          "name": "Author 8",
+          "thumbnail": "http://example.com/authors/8"
+        }
+      },
+      {
+        "id": "Post90",
+        "title": "Post 9:0",
+        "category": null,
+        "author": {
+          "id": "Author9",
+          "name": "Author 9",
+          "thumbnail": "http://example.com/authors/9"
+        }
+      }
+    ]
+  }
+}

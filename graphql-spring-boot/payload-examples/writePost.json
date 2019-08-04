@@ -1,0 +1,3 @@
+{
+  "query": "mutation { writePost(title: \"title\", text: \"text\", category: \"cat\", author: \"me\") { id title category } }"
+}
